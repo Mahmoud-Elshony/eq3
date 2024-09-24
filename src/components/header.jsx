@@ -4,8 +4,6 @@ import {
   Container,
   Divider,
   Grid2,
-  Input,
-  radioClasses,
   Stack,
   Typography,
 } from "@mui/material";
@@ -15,7 +13,6 @@ import {
   FavoriteBorderOutlined,
   LanguageOutlined,
   Person2Outlined,
-  ShoppingCartCheckoutOutlined,
   ShoppingCartOutlined,
 } from "@mui/icons-material";
 import { useState } from "react";
@@ -260,7 +257,11 @@ export default function Header() {
         }}>
               The autumn Edit: Enjoy Up To 25% Off EQ3. Discount Applied At Checkout
         </Typography>
+
       </Box>
+      <Box sx={{
+        p:2,
+      }}/>
     </>
   );
 }
